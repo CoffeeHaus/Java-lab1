@@ -14,15 +14,7 @@ public class Lab1 {
 		// Initialize a new Mission with a mission name, operator, year, and mission type.
 		Mission apollo11 = new Mission( "Apollo 11", "NASA", 1969, "Crewed lunar landing" );
 		
-		// Initialize new crew members
-		Astronaut neil = new Astronaut( "Neil Armstrong", "Commander" );
-		Astronaut collins = new Astronaut( "Michael Collins", "Commander Module Pilot (CMP)" );
-		Astronaut buzz = new Astronaut( "Edwin Buzz Aldrin Jr.", "Lunar Module Pilot" );
-		
-		// Add crew members to mission
-		apollo11.addCrewMember( neil );
-		apollo11.addCrewMember( collins );
-		apollo11.addCrewMember( buzz );
+		// Initia
 		
 		// Initialize new spacecrafts and add to mission
 		Spacecraft columbia = new Spacecraft( "Columbia", "Command Module", 107 );
